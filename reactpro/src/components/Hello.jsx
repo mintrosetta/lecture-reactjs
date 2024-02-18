@@ -1,9 +1,12 @@
-function Hello() {
+function Hello(props) { // props is value pass to into component
+    const { name, message } = props;
+
     // return only one single root element
     return (
-        <h1>Hello, Mint Rosetta 2001</h1>
+        <h1>{message} { name }</h1>
     );
 }
 
 export default Hello;
+// https://www.youtube.com/watch?v=n5WWqx8a4tg&list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza&index=10
 
