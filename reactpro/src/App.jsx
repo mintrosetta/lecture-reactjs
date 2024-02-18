@@ -5,10 +5,11 @@ import Hello from "./components/Hello"
 function App() {
   return (
     <div className="App">
-      <p>Nigga World</p>
+      <Hello />
       <Hello />
     </div>
   )
 }
 
 export default App
+
