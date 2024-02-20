@@ -1,7 +1,6 @@
 function Hello(props) { // props is value pass to into component
     // destructoring object, แยกโครงสร้างของ object ออกมาเป็นตัวแปร
     const { name, message, emoji } = props; 
-    props.name = 'ddd';
 
     // return only one single root element
     return (
