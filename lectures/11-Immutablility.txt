@@ -1,0 +1,3 @@
+
+    Immutability of props
+        ไม่สามารถแก้ไข object ที่มาจาก props ได้เพราะเป็น Read Only Props
