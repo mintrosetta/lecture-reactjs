@@ -13,4 +13,6 @@ export default function Fruits() {
             {fruits.map((item, index) => <li key={index}>{item.emoji} {item.name} {`$${item.price}`}</li>)}
         </ul>
     );
+
+    // https://www.youtube.com/watch?v=8AY4siDB3ow&list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza&index=15
 }
