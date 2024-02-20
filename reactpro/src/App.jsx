@@ -5,7 +5,7 @@ import Hello from "./components/Hello"
 function App() {
   return (
     <div className="App">
-      <Hello name='Mint Rosetta' message='hi there!' />
+      <Hello name='Mint Rosetta' message='hi there!' emoji='eiei'/>
     </div>
   )
 }

@@ -1,0 +1,6 @@
+
+    Destructuring Object
+        เป็นการแยกโครงสร้างของ object ออกมาเป็นตัวแปร โดยจะมากับ ES6
+        เช่น
+            const user = { username: 'Mint Rosetta', email: 'test@gmail.com' };
+            const { username, email } = user;
